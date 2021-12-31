@@ -86,28 +86,5 @@ namespace BinarySearchTree
             }
             return flag;
         }
-
-        //Or We can Use this method for Searchin an element
-
-        //bool flag;
-        //public bool Search(T item, BinarySearchTree<T> tree) //search the node in the binary tree
-        //{
-
-        //    if (tree == null)
-        //        return false;
-        //    if (tree.NodeData.Equals(item))
-        //    {
-        //        flag = true;
-        //    }
-        //    else if (tree.NodeData.CompareTo(item) < 0)
-        //    {
-        //        Search(item, tree.RightTree);
-        //    }
-        //    else
-        //    {
-        //        Search(item, tree.LeftTree);
-        //    }
-        //    return flag;
-        //}
     }
 }
